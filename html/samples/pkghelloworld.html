@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Main Topic</title>
+  </head>
+  <body>
+    <h2><b><tt>helloworld package</tt></b></h2>
+    <p><img alt="" src="helloworld_01.JPG"></p>
+    <ul>
+      <li>HelloMaker component reads a property message from component profile,
+        and sent this message through three ports.</li>
+      <ul>
+        <li>Set a period counter<br>
+        </li>
+        <li>Call print method through the service port MessagePrint at every 3
+          period<br>
+        </li>
+        <li>Send the message through the data port in every 3 period+1</li>
+        <li>Send the message through the event port at every 3 period+2</li>
+      </ul>
+    </ul>
+    <blockquote></blockquote>
+    <ul>
+      <li>MessagePeinter component sets monitoring variables and response to
+        HelloMaker component</li>
+      <ul>
+        <li>Increment the monitoring variable at every period<br>
+        </li>
+        <li>Provide print method</li>
+        <li>Read message through the data port</li>
+        <li>Response to the event <br>
+        </li>
+      </ul>
+    </ul>
+  </body>
+</html>
