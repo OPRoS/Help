@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="OPRoS Getting Started" link_to="toc.xml#gettingstarted">
+   <topic label="Installation Requirement" href="html/gettingstarted/requirement.html">
+   </topic>
+   <topic label="How to Install" href="html/gettingstarted/installation.html">
+   </topic>
+   <topic label="Test Execution" >
+      <topic label="From Terminal" href="html/gettingstarted/fromTerminal.html">
+      </topic>
+      <topic label="From Tools" href="html/gettingstarted/fromTools.html">
+      </topic>
+   </topic> 
+</toc>

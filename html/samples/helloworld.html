@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <meta content="text/html;charset=EUC-KR" http-equiv="Content-Type">
+  </head>
+  <body>
+    <h2><b>Create HelloWorld Application with OPRoS Component Composer, an OPRoS
+        Tool, then distribute the package into robots, and execute the
+        application with monitoring</b></h2>
+    <ol>
+      <li>Click "Component Composer" OPRoS eclipse perspective<br>
+        <img alt="" src="../img/cc_01.JPG" height="58" width="501"></li>
+      <li>Top menu "Window", select "Preferences". Set "Local Repository Path"
+        into <strong>OPRoS\OprosDevelopment\Repository\Components</strong> in
+        OPRoS item <br>
+        <img alt="" src="../img/cc_02.JPG" height="223" width="310"><br>
+      </li>
+      <li>"Solution" in left, click cross mark for sub contents to see "Package
+        Diagram". Then double click it. <br>
+        <img alt="" src="../img/cc_03.JPG" height="218" width="344"><br>
+      </li>
+      <li>Clicking "Package" shows Property in lower right corner. Change the
+        package name from "Package" to "HelloWorld"<br>
+        <img alt="" src="../img/cc_04.JPG" height="217" width="344"><br>
+      </li>
+      <li>Click "Local Repository" and select refresh from right click, and then
+        HelloMaker and MessagePrinter component will be displayed. <br>
+        <img alt="" src="../img/cc_05.JPG" height="218" width="344"><br>
+      </li>
+      <li>Click HelloMaker under the "Local Repository" and drag it into the
+        painting board.<br>
+      </li>
+      <li>The same way to MessagePrinter component <br>
+        <img alt="" src="../img/cc_06.JPG" height="218" width="344"> <br>
+      </li>
+      <li>Select "Connection" in the palette, right side of the painting board<br>
+      </li>
+      <ol>
+      </ol>
+      <ul>
+        <li>If you don't see the palette, then find a tri-angle in upper right
+          corner, and click it</li>
+      </ul>
+      <ol>
+      </ol>
+      <li>Connect from the service port MessagePrint of HelloMaker to the
+        service port MessagePrint of MessagePrinter</li>
+      <li>Connect form the data port DataOut of HelloMaker to the data port
+        DataIn of MessagePrinter <br>
+      </li>
+      <li>Connect form the event port EventOut of HelloMaker to the event port
+        EventIn of MessagePrinter <br>
+        <img alt="" src="../img/cc_07.JPG" height="220" width="348"><br>
+      </li>
+      <li>Click "Robots" with right button, then select "Add Robot", and click
+        o.k. button <br>
+      </li>
+      <ol>
+      </ol>
+      <ul>
+        <li>The default value is "robot1"</li>
+      </ul>
+      <ol>
+      </ol>
+      <li>Click created "robot1" with right button, then select "Add&nbsp;Node",
+        and click o.k. button</li>
+      <ol>
+      </ol>
+      <ul>
+        <li>The default value is "node1" <br>
+          <img alt="" src="../img/cc_08.JPG" height="218" width="344"><br>
+        </li>
+      </ul>
+      <ol>
+      </ol>
+      <li>Click created "node1" with right button, then select "Get Packages"</li>
+      <ol>
+      </ol>
+      <ul>
+        <li>Before the selection "Get Package", Component Execution Engine
+          should be running</li>
+      </ul>
+      <ol>
+      </ol>
+      <ul>
+        <li>Double click run.bat in OPRoS\OprosRobot\Binnary <br>
+        </li>
+      </ul>
+      <ol>
+      </ol>
+      <li>Click created "node1" and drag it into the center part of each
+        components <br>
+        <img alt="" src="../img/cc_10.JPG" height="209" width="331"><br>
+      </li>
+      <li>To run component execution engine, double click run.bat file in OPRoS\<strong></strong>OprosRobot\Binary</li>
+      <li>At HelloWorld click with right mouse button to choose "Deploy" and
+        select "robot1.nod1"</li>
+      <ol>
+      </ol>
+      <ul>
+        <li>One service can work with multi nodes <br>
+          <img alt="" src="../img/cc_11.JPG" height="220" width="347"><br>
+        </li>
+      </ul>
+      <ol>
+      </ol>
+      <li><strong>Repeat #14</strong> to see newly distributed application
+        HelloWorld</li>
+      <li>Click the application "HelloWorld" with right mouse button to select
+        "Run Package" <br>
+        <img alt="" src="../img/cc_12.JPG" height="225" width="357"><br>
+      </li>
+      <li>The Component Engine should be print messages</li>
+      <li>To stop the application, click the application with right mouse button
+        "HelloWorld" then select "Stop Package" <br>
+      </li>
+    </ol>
+    <p>Reference: <a href="http://ropros.org/pages/viewpage.action?pageId=4161548">A
+        simple-to-installation/execution for running OPRoS on Windows</a></p>
+  </body>
+</html>

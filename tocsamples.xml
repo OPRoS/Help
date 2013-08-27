@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="OPRoS Samples" link_to="toc.xml#samples"> 
+	<topic label="OPRoS Package helloworld" href="html/samples/pkghelloworld.html" >
+    	<topic label="OPRoS Component" >
+       		<topic label="HelloMaker" href="html/samples/hellomaker.html" />
+       		<topic label="MessagePrinter" href="html/samples/messageprinter.html" />
+    	</topic>
+    	<topic label="OPRoS Package">
+       		<topic label="helloworld" href="html/samples/helloworld.html" />
+    	</topic>
+    </topic>
+</toc>

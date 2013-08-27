@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Sub Topic 2</title>
+  </head>
+  <body>
+    <h2 class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:left;line-height:normal;mso-pagination:widow-orphan;mso-outline-level:2;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all"
+      align="left"><b><span style="font-size:18.0pt;font-family:&#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;
+mso-font-kerning:0pt" lang="EN-US">Execute the helloworld Application on the
+          Command Window</span></b></h2>
+    <ol start="1" type="1">
+      <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     text-align:left;line-height:normal;mso-pagination:widow-orphan;mso-list:     l2 level1 lfo1;tab-stops:list 36.0pt;text-autospace:ideograph-numeric ideograph-other;     word-break:keep-all"><span
+          style="font-size:12.0pt;font-family:
+     &#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:0pt" lang="EN-US">Double-click
+          the<b> run.bat</b> at OPRoS\OprosRobot\Binary</span></li>
+      <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     text-align:left;line-height:normal;mso-pagination:widow-orphan;mso-list:     l2 level1 lfo1;tab-stops:list 36.0pt;text-autospace:ideograph-numeric ideograph-other;     word-break:keep-all"><span
+          style="font-size:12.0pt;font-family:
+     &#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:0pt" lang="EN-US">Type "pkg
+          run" at the cursor on the command window. And press the Enter key. </span></li>
+      <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     text-align:left;line-height:normal;mso-pagination:widow-orphan;mso-list:     l2 level1 lfo1;tab-stops:list 36.0pt;text-autospace:ideograph-numeric ideograph-other;     word-break:keep-all"><span
+          style="font-size:12.0pt;font-family:
+     &#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:0pt" lang="EN-US">The <b>helloworld</b>,
+          a default application, is executed.</span></li>
+      <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     text-align:left;line-height:normal;mso-pagination:widow-orphan;mso-list:     l2 level1 lfo1;tab-stops:list 36.0pt;text-autospace:ideograph-numeric ideograph-other;     word-break:keep-all"><span
+          style="font-size:12.0pt;font-family:
+     &#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:0pt" lang="EN-US">Type "pkg
+          stop" at the cursor in the command window. Next, press the Enter key.
+        </span></li>
+      <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     text-align:left;line-height:normal;mso-pagination:widow-orphan;mso-list:     l2 level1 lfo1;tab-stops:list 36.0pt;text-autospace:ideograph-numeric ideograph-other;     word-break:keep-all"><span
+          style="font-size:12.0pt;font-family:
+     &#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:0pt" lang="EN-US">The
+          application being executed is terminated.</span></li>
+    </ol>
+  </body>
+</html>

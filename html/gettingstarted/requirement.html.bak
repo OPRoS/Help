@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Main Topic</title>
+  </head>
+  <body>
+    <h2><tt><b><span style="font-size:24.0pt;font-family:&#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;
+mso-font-kerning:18.0pt" lang="EN-US">Requirements for Installation</span></b></tt></h2>
+    <ul>
+      <li><span style="font-size:12.0pt;font-family:&#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:
+0pt" lang="EN-US">Operating System: Windows7 32bit </span></li>
+      <li><span style="font-size:12.0pt;font-family:&#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:
+0pt" lang="EN-US"> Required Disk Space: 1.78GB</span></li>
+      <li><span style="font-size:12.0pt;font-family:&#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:
+0pt" lang="EN-US"> Required Programs: </span></li>
+      <ul>
+        <li><span style="font-size:12.0pt;font-family:&#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:
+0pt" lang="EN-US"> &nbsp; Visual Studio 2010 (Possible to use a demo version),
+            or&nbsp; VC++2010Redistributable Package</span></li>
+        <li><span style="font-size:12.0pt;font-family:&#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:
+0pt" lang="EN-US"> &nbsp; VC++2010 SP1 (for Tools and Simulator)</span></li>
+        <li><span style="font-size:12.0pt;font-family:&#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:
+0pt" lang="EN-US"> &nbsp; JAVA 6.0 or above (for Tools)</span></li>
+        <li><span style="font-size:12.0pt;font-family:&#44404;&#47548;;mso-bidi-font-family:&#44404;&#47548;;mso-font-kerning:
+0pt" lang="EN-US"> &nbsp; MSXML4msms.exe (for Simulator)</span></li>
+      </ul>
+    </ul>
+  </body>
+</html>
